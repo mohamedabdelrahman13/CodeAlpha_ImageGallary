@@ -16,11 +16,19 @@
     transform:translate(-50% , -50%);
     z-index: 2;
 } 
+
+.title h1{
+    font-size: 64px;
+    color: white;
+}
 .home-content button{
     padding: 5px 10px;
     border-radius: 5px;
     background-image: linear-gradient(to right , rgb(242, 255, 0) , rgb(255, 217, 0));
-    border: none;
+    border: 1px solid linear-gradient(to right , rgb(242, 255, 0) , rgb(255, 217, 0));
     font-size: large; 
-   
+    transition: all .2s ease-in-out;
+}
+.home-content button:hover{
+  transform: scale(1.05);   
 }
